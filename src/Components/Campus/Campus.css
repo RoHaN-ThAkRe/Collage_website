@@ -1,0 +1,29 @@
+.campus{
+    margin: 5rem auto;
+    width: 90%;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.gallery img {
+    width: 23%;
+    border-radius: 0.7rem;
+}
+
+/* --------- Media Quary ----------- */
+
+@media (max-width: 800px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery img {
+        width: 48%;
+        margin-bottom: 1.5rem;
+    }
+}

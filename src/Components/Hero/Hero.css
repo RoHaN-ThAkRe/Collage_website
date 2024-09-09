@@ -1,0 +1,48 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../Assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 50rem;
+}
+
+.hero-text h1 {
+    font-size: 3.75rem;
+    font-weight: 3.75rem;
+}
+
+.hero-text p {
+    max-width: 43.75rem;
+    margin: 0.6rem auto 1.25rem;
+    line-height: 1.4;
+}
+
+/* --------- Media Quary ----------- */
+
+@media (max-width: 850px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-text h1 {
+        font-size: 1.8rem;
+        max-width: 25rem;
+        margin: auto;
+    }
+    .hero-text p {
+        font-size: 0.9rem;
+        margin: 1rem auto 2rem;
+    }
+}

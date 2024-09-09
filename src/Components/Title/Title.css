@@ -1,0 +1,22 @@
+.title {
+    text-align: center;
+    color: #212ea0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 4.3rem 0 1.8rem;
+}
+.title  h2 {
+    font-size: 2rem;
+    color: #000f38;
+    margin-top: 0.37rem;
+    text-transform: none;
+}
+
+/* ---------- media query ---------- */
+
+@media (max-width: 600px) {
+    .title {
+        margin: 2rem 0 0.7rem;
+    }
+}

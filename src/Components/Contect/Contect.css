@@ -1,0 +1,73 @@
+.contect {
+    margin: 5rem auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.contect-col {
+    flex-basis: 48%;
+    color: #676767;
+}
+
+.contect-col h3 {
+    color: #000F38;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.3rem;
+}
+
+.contect-col h3 img {
+    width: 2rem;
+    margin-left: 0.8rem;
+}
+
+.contect-col p {
+    max-width: 28.12rem;
+    list-style: 0.3;
+    margin-bottom: 1rem;
+}
+
+.contect-col ul li {
+    display: flex;
+    align-items: center;
+    margin: 1.3rem 0;
+}
+
+.contect-col ul li img {
+    width: 1.5rem;
+    margin-right: 0.7rem;
+}
+
+.contect form input,
+.contect form textarea {
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 1rem;
+    border: 0;
+    outline: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    resize: none;
+}
+.contect-col span {
+    display: block;
+    margin: 1.3rem 0;
+}
+
+/* -------- Media query ---------- */
+
+@media (max-width: 700px) {
+    .contect {
+        display: block;  
+        margin: 2.5rem auto;      
+    }
+    .contect-col{
+        padding: 1.25rem;
+    }
+}
