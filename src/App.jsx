@@ -27,7 +27,7 @@ const App = () => {
         <Campus/>
         <Title subTitle='TESTIMONIALS' title='What Student Says'/>  
         <Testimonials/>
-        <Title subTitle='Contact Us' title='Get in Touch'/>  
+        <Title subTitle='Contacts Us' title='Get in Touch'/>  
         <Contect/>
         <Footer/>
       </div>
